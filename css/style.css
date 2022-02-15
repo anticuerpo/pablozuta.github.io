@@ -11,7 +11,7 @@ body{
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
     text-align: center;
-    font-size: 3rem;
+    font-size: 2rem;
 }
 .navbar{
     display: flex;
@@ -25,7 +25,7 @@ body{
 .logo{
     margin-left: 2%;
     margin: 1rem;
-    width: 100px;
+    width: 60px;
     cursor: pointer;
 }
 
@@ -76,6 +76,26 @@ body{
     }
     .navbar-links{
         display: none;
+        width: 100%;
+    }
+    .navbar{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .navbar-links ul{
+        width: 100%;
+        flex-direction: column;
+    }
+    .navbar-links li{
+        text-align: center;
+        
+    }
+    .navbar-links li a{
+        padding:.5rem 1rem;
+        
+    }
+    .navbar-links.active{
+        display: flex;
     }
 }
 
@@ -87,15 +107,6 @@ body{
     
 }
 
-h1{
-    font-size: 6.2rem;
-    line-height: 120%;
-    letter-spacing: 3.3rem;
-    text-align: center;
-    padding: 3%;
-    font-weight: 500;
-    width: auto;
-}
 
 
 
