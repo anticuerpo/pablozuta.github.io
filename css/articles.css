@@ -99,10 +99,6 @@ body{
     }
 }
 
-.foto-articulo{
-    width: 500px;
-    height: auto;
-}
 
 
 
@@ -117,11 +113,35 @@ p{
     margin-top: 2.7%;
 }
 
-.articulo{
-    
+.article{
     display: flex;
     flex-direction: column;
-    align-items:flex-end;
-    margin: 6%;
+    padding: 2%;
+    
 }
 
+.imagen-articulo{
+    margin-top: 3%;
+    width: 84%;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+    
+}
+
+.texto-fecha{
+    margin-left: 9%;
+    margin-top: 2%;
+    font-style: italic;
+    font-size: .9rem;
+}
+h3{
+    font-size: 1.4rem;
+    text-align: left;
+}
+.texto-articulo{
+    
+    padding: 15%;
+    padding-top: 3%;
+}
