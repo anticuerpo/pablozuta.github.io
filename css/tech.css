@@ -53,7 +53,7 @@ h4{
 
 
    .navbar-links li:hover{
-    background-color: aquamarine;
+    background-color:#44b78b;
    }
     
 .toggle-button{
@@ -103,19 +103,19 @@ h4{
     }
 }
 .texto{
-    margin-left: 13%;
-    margin-right: .9%;
+    margin: 3%;
     padding: 13px;
-    margin-top: 7%;
-    margin-bottom: 7%;
+    
     opacity: 90%;
     background-color: rgb(177, 61, 231);
-    text-align: right;
+    text-align: left;
+    
 }
 p{
+    padding: 1rem;
     line-height: 137%;
     color:black;
-    font-size: 1rem;
+    font-size: 1.2rem;
     margin-top: 2.7%;
     font-weight: 100;
 }
