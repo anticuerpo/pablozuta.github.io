@@ -2,7 +2,7 @@
     margin: 0;
     padding:0;
     box-sizing: border-box;
-}
+  }
 
 body{
     margin: 0;
@@ -11,8 +11,8 @@ body{
     background: rgb(63,94,251);
     background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(252,70,107,1) 100%);
     text-align: center;
-    font-size: 1.8rem;
-}
+    font-size: 2rem;
+    }
 
 .navbar{
     display: flex;
@@ -23,33 +23,31 @@ body{
         
 }
 
-.logo{
+ .logo{
     margin-left: 2%;
     margin: 1rem;
     width: 60px;
     cursor: pointer;
-}
+  }
 
-.navbar-links ul{
+ .navbar-links ul{
     margin: 0;
     padding: 0;
     display: flex;
-}
+  }
 
-.navbar-links li{
+ .navbar-links li{
     list-style: none;
    }
 
-.navbar-links li a{
+ .navbar-links li a{
     text-decoration: none;
     color: white;
     padding: 1rem;
     display: block;
-    
    }
 
-
-   .navbar-links li:hover{
+ .navbar-links li:hover{
     background-color: aquamarine;
    }
     
@@ -101,14 +99,165 @@ body{
 }
 
 
-.img-landscape{
-    margin-top: 3%;
-    width: 65%;
-    height: auto;
+h1{
+    font-size: 4.5rem;
+    margin-top: 2.3rem;
+    font-weight: 300;
+    letter-spacing: 1.77rem;
+    font-family: 'Press Start 2P', cursive;
+    color: wheat;
+ }
+
+
+
+button{
+    font-family: 'Press Start 2P', cursive;
+    width: 25rem;
+    height: 5rem;
+    border-radius: 2rem;
+    color:palevioletred;
+    margin-top: 9rem;
+    font-size: 2rem;
+    background-color: aqua;
+  }
+
+.youtube-video{
+    margin-top: 5rem;
+}
+
+.vimeo-video{
+    margin-top: 5rem;
 }
 
 
 
+/*aca empieza el style de books */
+h4{
+    font-size: 1.5rem;
+}
+
+p{
+    font-size: 1rem;
+    margin-top: 2.7%;
+}
+
+.grid-6{
+    text-align:justify;
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(21rem, 1fr)) ;
+    padding: 5%;
+    gap: 3rem;
+}
+
+.artist__img{
+    width: 100%;
+    aspect-ratio: 1/1;
+    object-fit: cover;
+}
+/*aca termina el style de books */
+
+
+
+/* aca empieza el style de tech */
+
+.texto{
+    margin: 3%;
+    padding: 13px;
+    opacity: 90%;
+    background-color: rgb(177, 61, 231);
+    text-align: left;
+    
+}
+
+.pText{
+    padding: 1rem;
+    line-height: 137%;
+    color:black;
+    font-size: 1.2rem;
+    margin-top: 2.7%;
+    font-weight: 100;
+}
+/*aca termina el style de tech */
+
+
+/*aca empieza el style de articles */
+
+.pArticles{
+    text-align: left;
+    font-size: 1.2rem;
+    margin-top: 2.7%;
+}
+
+.article{
+    display: flex;
+    flex-direction: column;
+    padding: 2%;
+    
+}
+
+.texto-articulo{
+    padding: 15%;
+    padding-top: 3%;
+}
+
+.imagen-articulo{
+    margin-top: 3%;
+    width: 84%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.texto-fecha{
+    margin-left: 2rem;
+    margin-top: 2%;
+    font-style: italic;
+    font-size: .9rem;
+}
+
+h3{
+    font-size: 1.4rem;
+    text-align: left;
+}
+
+
+@media (max-width:520px){
+    .texto-articulo{
+    padding: 7%;
+   }
+    
+    }
+
+ /*aca termina el style de articles */   
+
+ footer{
+    margin-top: 2rem;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-color: darkslategrey;
+    display: grid;
+    grid-gap: 2rem;
+    grid-template-columns:repeat(auto-fit, minmax(21rem, 1fr)) ;
+    }
+
+ .footer-box a{
+    color: wheat;
+    text-decoration: none;
+    }
+
+ .footer-box ul{
+    list-style: none;
+    }
+
+   .footer-links-horizontal{
+       background-color: darkslategrey;
+       display: grid;
+       grid-template-columns:repeat(auto-fit, minmax(21rem, 1fr)) ;
+   } 
+
+
+  
 
 
   
